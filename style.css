@@ -1,0 +1,37 @@
+
+
+* {
+    background-color: rgb(148, 188, 188);
+}
+
+.fill {
+    background-image: url('https://images.unsplash.com/photo-1432251407527-504a6b4174a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px rgb(148, 188, 188) sold;
+    background: white;
+}
+
+.hold {
+    border: solid lightgrey 4px;
+}
+
+.hovered {
+    background: lightgrey;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
